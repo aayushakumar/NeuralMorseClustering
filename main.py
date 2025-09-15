@@ -1,27 +1,7 @@
 """
-Neural Mode Clustering (NMC) - Complete Implementation v3
+Neural Mode Clustering (NMC) - Complete Implementation v1
 ==========================================================
 
-CHANGELOG v3:
-------------
-NEW FIXES:
-1. Fixed z_std initialization for cached embeddings path
-2. Fixed Stability@Aug to use fixed threshold instead of quantile
-3. Added assignment consistency stability metric
-4. Removed deprecated n_jobs from DBSCAN
-5. Fixed gradient clipping for all param groups
-6. Added safety checks and improved documentation
-
-Previous fixes maintained:
-- Two-view test loader for proper stability measurement
-- Trainable projection head
-- Element-wise backtracking
-- DBSCAN fallback
-- Persistence edge cases
-- Embedding cache properly wired
-
-Author: ML Engineer
-Date: 2025
 """
 
 import os
